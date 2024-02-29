@@ -78,6 +78,47 @@ nav li a{
 }
 
 
+
+/* Main section style */
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* Features Section Style */
+.Features-Section{
+    display: flex;
+    margin-top: 5.31rem;
+    gap: 4.75rem ;
+    align-items: center;
+}
+.Features-title{
+    font-size: 2.81rem;
+    font-weight: 500;
+    color: var(--Dark-01, #131313);
+}
+.F-T-color1{
+    color: var(--Dark-03, #727272);
+}
+.F-T-color2{
+    color: #FF900E;
+}
+.Features-description{
+    color: var(--Dark-03, #727272);
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.Features-img-Section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1.5rem;
+}
+
+
+
+
+
 /* Responsive style */
 
 
